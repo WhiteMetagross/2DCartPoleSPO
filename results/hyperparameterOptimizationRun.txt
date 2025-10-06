@@ -1,0 +1,103 @@
+(base) PS C:\Users\Xeron\OneDrive\Documents\Programs\2DCartPoleSPO> python hyperparameter_optimization.py
+Starting hyperparameter optimization for SPO agent
+This may take several hours depending on the number of trials
+[I 2025-09-30 13:12:07,997] A new study created in memory with name: no-name-fcc916d1-7b6b-4f48-a9e0-8dfbc79ba289
+[I 2025-09-30 13:13:11,176] Trial 0 finished with value: 493.8 and parameters: {'num_layers': 3, 'hidden_size': 256, 'steps_per_batch': 2048, 'update_epochs': 9, 'num_minibatches': 32, 'learning_rate': 0.0003866414615147955, 'gamma': 0.9894202452741839, 'gae_lambda': 0.9537280552819595, 'epsilon': 0.11154896811684199, 'entropy_coeff': 0.016669020899402393, 'value_loss_coeff': 0.4717709646675289, 'max_grad_norm': 1.62858398490817, 'normalize_advantages': True}. Best is trial 0 with value: 493.8.
+[I 2025-09-30 13:16:06,139] Trial 1 finished with value: 396.0 and parameters: {'num_layers': 4, 'hidden_size': 64, 'steps_per_batch': 2048, 'update_epochs': 13, 'num_minibatches': 32, 'learning_rate': 0.0003659783195539837, 'gamma': 0.9961046191349782, 'gae_lambda': 0.9687636227412307, 'epsilon': 0.10835966474163053, 'entropy_coeff': 0.0017145051548216775, 'value_loss_coeff': 0.579698139210974, 'max_grad_norm': 0.8963525012819225, 'normalize_advantages': True}. Best is trial 0 with value: 493.8.
+[I 2025-09-30 13:17:42,020] Trial 2 finished with value: 77.4 and parameters: {'num_layers': 2, 'hidden_size': 64, 'steps_per_batch': 8192, 'update_epochs': 11, 'num_minibatches': 64, 'learning_rate': 0.0005881539683683986, 'gamma': 0.990778588093159, 'gae_lambda': 0.9736363809556678, 'epsilon': 0.11256713335536313, 'entropy_coeff': 0.0031122310250629465, 'value_loss_coeff': 0.6169937547394183, 'max_grad_norm': 0.6848374227880096, 'normalize_advantages': True}. Best is trial 0 with value: 493.8.
+[I 2025-09-30 13:20:04,640] Trial 3 finished with value: 478.0 and parameters: {'num_layers': 4, 'hidden_size': 64, 'steps_per_batch': 2048, 'update_epochs': 11, 'num_minibatches': 64, 'learning_rate': 0.00023136820193420102, 'gamma': 0.9839282609817781, 'gae_lambda': 0.9541968842845985, 'epsilon': 0.275799714837876, 'entropy_coeff': 0.0013110031838488904, 'value_loss_coeff': 0.5877610267972363, 'max_grad_norm': 1.8384773704450954, 'normalize_advantages': False}. Best is trial 0 with value: 493.8.
+[I 2025-09-30 13:21:56,693] Trial 4 finished with value: 235.6 and parameters: {'num_layers': 4, 'hidden_size': 256, 'steps_per_batch': 4096, 'update_epochs': 12, 'num_minibatches': 64, 'learning_rate': 0.0036459190867130435, 'gamma': 0.9825511381375868, 'gae_lambda': 0.9571482216621482, 'epsilon': 0.11563607009759402, 'entropy_coeff': 0.03294472971758303, 'value_loss_coeff': 0.7082368758695795, 'max_grad_norm': 1.3991448615189421, 'normalize_advantages': False}. Best is trial 0 with value: 493.8.
+Trial 5 failed:
+[I 2025-09-30 13:22:55,433] Trial 5 pruned.
+[I 2025-09-30 13:24:18,634] Trial 6 finished with value: 409.6 and parameters: {'num_layers': 2, 'hidden_size': 64, 'steps_per_batch': 4096, 'update_epochs': 15, 'num_minibatches': 32, 'learning_rate': 0.0036732946463928088, 'gamma': 0.984283364453014, 'gae_lambda': 0.9231371318590867, 'epsilon': 0.14931296938467914, 'entropy_coeff': 0.0013731397151367957, 'value_loss_coeff': 0.7922451437975842, 'max_grad_norm': 0.8399545517182309, 'normalize_advantages': True}. Best is trial 0 with value: 493.8.
+[I 2025-09-30 13:25:28,012] Trial 7 finished with value: 327.2 and parameters: {'num_layers': 2, 'hidden_size': 64, 'steps_per_batch': 4096, 'update_epochs': 12, 'num_minibatches': 32, 'learning_rate': 0.0003332439905867102, 'gamma': 0.9800648167165092, 'gae_lambda': 0.9492367408369601, 'epsilon': 0.1657234746161106, 'entropy_coeff': 0.007992761034546594, 'value_loss_coeff': 0.4846581674536959, 'max_grad_norm': 0.6765975898070786, 'normalize_advantages': True}. Best is trial 0 with value: 493.8.
+Trial 8 failed:
+[I 2025-09-30 13:26:10,991] Trial 8 pruned.
+[I 2025-09-30 13:27:37,943] Trial 9 finished with value: 349.6 and parameters: {'num_layers': 3, 'hidden_size': 128, 'steps_per_batch': 4096, 'update_epochs': 13, 'num_minibatches': 32, 'learning_rate': 0.002273973644587913, 'gamma': 0.9880518086102567, 'gae_lambda': 0.9144388680080069, 'epsilon': 0.1668496325092274, 'entropy_coeff': 0.017325510025817455, 'value_loss_coeff': 0.7395257023304252, 'max_grad_norm': 0.9027878605552544, 'normalize_advantages': True}. Best is trial 0 with value: 493.8.
+Trial 10 failed:
+[I 2025-09-30 13:27:52,125] Trial 10 pruned.
+Trial 11 failed:
+[I 2025-09-30 13:28:55,165] Trial 11 pruned.
+[I 2025-09-30 13:30:26,605] Trial 12 finished with value: 500.0 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 2048, 'update_epochs': 10, 'num_minibatches': 64, 'learning_rate': 0.0007282976901767067, 'gamma': 0.9919377900986864, 'gae_lambda': 0.9519200113582851, 'epsilon': 0.29947656712638776, 'entropy_coeff': 0.004378183225974978, 'value_loss_coeff': 0.5067698532530341, 'max_grad_norm': 1.6841379686217262, 'normalize_advantages': False}. Best is trial 12 with value: 500.0.
+Trial 13 failed:
+[I 2025-09-30 13:31:01,188] Trial 13 pruned.
+[I 2025-09-30 13:31:50,515] Trial 14 finished with value: 500.0 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 2048, 'update_epochs': 10, 'num_minibatches': 16, 'learning_rate': 0.0007568146738566384, 'gamma': 0.9932944218794232, 'gae_lambda': 0.9429168246087002, 'epsilon': 0.2545371511165781, 'entropy_coeff': 0.005656083038453122, 'value_loss_coeff': 0.4066433969952916, 'max_grad_norm': 1.1561068966202335, 'normalize_advantages': True}. Best is trial 12 with value: 500.0.
+[I 2025-09-30 13:33:10,417] Trial 15 finished with value: 500.0 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 2048, 'update_epochs': 10, 'num_minibatches': 16, 'learning_rate': 0.0015101199318475738, 'gamma': 0.9936229746201893, 'gae_lambda': 0.9221512032810298, 'epsilon': 0.2564816053959692, 'entropy_coeff': 0.004531556773915374, 'value_loss_coeff': 0.4115309957410277, 'max_grad_norm': 1.1058581563914887, 'normalize_advantages': False}. Best is trial 12 with value: 500.0.
+[I 2025-09-30 13:34:06,953] Trial 16 finished with value: 374.6 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 8192, 'update_epochs': 10, 'num_minibatches': 16, 'learning_rate': 0.000640039159058801, 'gamma': 0.9944358389295067, 'gae_lambda': 0.9412719744324327, 'epsilon': 0.29997709844835063, 'entropy_coeff': 0.0024555410923443326, 'value_loss_coeff': 0.5256984294139715, 'max_grad_norm': 1.2147996128764917, 'normalize_advantages': False}. Best is trial 12 with value: 500.0.
+[I 2025-09-30 13:35:17,540] Trial 17 finished with value: 500.0 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 2048, 'update_epochs': 10, 'num_minibatches': 16, 'learning_rate': 0.0019470706717161983, 'gamma': 0.9978594368481778, 'gae_lambda': 0.9026329248088139, 'epsilon': 0.25406551006172134, 'entropy_coeff': 0.006993736336248037, 'value_loss_coeff': 0.4435678825255964, 'max_grad_norm': 1.1169525232377184, 'normalize_advantages': True}. Best is trial 12 with value: 500.0.
+[I 2025-09-30 13:36:03,494] Trial 18 finished with value: 476.0 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 2048, 'update_epochs': 13, 'num_minibatches': 16, 'learning_rate': 0.0008733399949977429, 'gamma': 0.9921215011730219, 'gae_lambda': 0.9289793417939444, 'epsilon': 0.2645439569561045, 'entropy_coeff': 0.007051024905614314, 'value_loss_coeff': 0.5392534450794032, 'max_grad_norm': 1.3881445646179285, 'normalize_advantages': False}. Best is trial 12 with value: 500.0.
+[I 2025-09-30 13:38:11,150] Trial 19 finished with value: 463.2 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 8192, 'update_epochs': 15, 'num_minibatches': 64, 'learning_rate': 0.0008084951497264807, 'gamma': 0.9962398586126414, 'gae_lambda': 0.9475755276400595, 'epsilon': 0.2993369639113687, 'entropy_coeff': 0.011472591089394546, 'value_loss_coeff': 0.6356642636382933, 'max_grad_norm': 1.266829957917254, 'normalize_advantages': True}. Best is trial 12 with value: 500.0.
+Trial 20 failed:
+[I 2025-09-30 13:38:50,473] Trial 20 pruned.
+[I 2025-09-30 13:40:04,135] Trial 21 finished with value: 500.0 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 2048, 'update_epochs': 10, 'num_minibatches': 16, 'learning_rate': 0.001523064224183561, 'gamma': 0.9931302426091992, 'gae_lambda': 0.9192614552527744, 'epsilon': 0.24648104502234652, 'entropy_coeff': 0.004389464281110543, 'value_loss_coeff': 0.41573846038308715, 'max_grad_norm': 1.0671354297860516, 'normalize_advantages': False}. Best is trial 12 with value: 500.0.
+[I 2025-09-30 13:40:51,387] Trial 22 finished with value: 500.0 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 2048, 'update_epochs': 9, 'num_minibatches': 16, 'learning_rate': 0.001344200162805567, 'gamma': 0.9954468603995454, 'gae_lambda': 0.9080971821843328, 'epsilon': 0.2708981059248484, 'entropy_coeff': 0.004794862440943992, 'value_loss_coeff': 0.411130064876067, 'max_grad_norm': 0.5257294712025737, 'normalize_advantages': False}. Best is trial 12 with value: 500.0.
+Trial 23 failed:
+[I 2025-09-30 13:41:12,372] Trial 23 pruned.
+[I 2025-09-30 13:41:56,326] Trial 24 finished with value: 500.0 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 2048, 'update_epochs': 11, 'num_minibatches': 16, 'learning_rate': 0.00165770171992698, 'gamma': 0.9931282733304487, 'gae_lambda': 0.9349177467580264, 'epsilon': 0.28801243423381345, 'entropy_coeff': 0.005488727001418708, 'value_loss_coeff': 0.5166506022862202, 'max_grad_norm': 1.509830895407914, 'normalize_advantages': False}. Best is trial 12 with value: 500.0.
+Trial 25 failed:
+[I 2025-09-30 13:42:10,753] Trial 25 pruned.
+Trial 26 failed:
+[I 2025-09-30 13:42:28,852] Trial 26 pruned.
+[I 2025-09-30 13:44:42,015] Trial 27 finished with value: 500.0 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 2048, 'update_epochs': 9, 'num_minibatches': 64, 'learning_rate': 0.0011418197644380698, 'gamma': 0.9921597068527976, 'gae_lambda': 0.9383526218478626, 'epsilon': 0.28107636461853885, 'entropy_coeff': 0.0037219227181968834, 'value_loss_coeff': 0.5102671960604166, 'max_grad_norm': 0.9947135078625512, 'normalize_advantages': False}. Best is trial 12 with value: 500.0.
+[I 2025-09-30 13:45:44,315] Trial 28 finished with value: 325.6 and parameters: {'num_layers': 3, 'hidden_size': 128, 'steps_per_batch': 8192, 'update_epochs': 10, 'num_minibatches': 16, 'learning_rate': 0.0007026209354593046, 'gamma': 0.9961768603820994, 'gae_lambda': 0.9296482924552149, 'epsilon': 0.2642849488075149, 'entropy_coeff': 0.00845408941721303, 'value_loss_coeff': 0.5576590596665352, 'max_grad_norm': 1.9572877277348173, 'normalize_advantages': True}. Best is trial 12 with value: 500.0.
+Trial 29 failed:
+[I 2025-09-30 13:47:58,279] Trial 29 pruned.
+Trial 30 failed:
+[I 2025-09-30 13:48:14,968] Trial 30 pruned.
+Trial 31 failed:
+[I 2025-09-30 13:48:33,517] Trial 31 pruned.
+Trial 32 failed:
+[I 2025-09-30 13:48:52,375] Trial 32 pruned.
+Trial 33 failed:
+[I 2025-09-30 13:49:10,164] Trial 33 pruned.
+[I 2025-09-30 13:49:59,772] Trial 34 finished with value: 500.0 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 2048, 'update_epochs': 11, 'num_minibatches': 16, 'learning_rate': 0.001752233648913612, 'gamma': 0.9971187446248496, 'gae_lambda': 0.9005524497683465, 'epsilon': 0.2748654523382531, 'entropy_coeff': 0.0026110716475692673, 'value_loss_coeff': 0.497453443875884, 'max_grad_norm': 0.8379092474657787, 'normalize_advantages': True}. Best is trial 12 with value: 500.0.
+Trial 35 failed:
+[I 2025-09-30 13:50:41,239] Trial 35 pruned.
+Trial 36 failed:
+[I 2025-09-30 13:50:59,072] Trial 36 pruned.
+Trial 37 failed:
+[I 2025-09-30 13:51:24,168] Trial 37 pruned.
+Trial 38 failed:
+[I 2025-09-30 13:53:45,714] Trial 38 pruned.
+Trial 39 failed:
+[I 2025-09-30 13:54:20,225] Trial 39 pruned.
+Trial 40 failed:
+[I 2025-09-30 13:54:41,905] Trial 40 pruned.
+Trial 41 failed:
+[I 2025-09-30 13:55:00,114] Trial 41 pruned.
+Trial 42 failed:
+[I 2025-09-30 13:55:18,806] Trial 42 pruned.
+Trial 43 failed:
+[I 2025-09-30 13:55:39,810] Trial 43 pruned.
+Trial 44 failed:
+[I 2025-09-30 13:55:56,913] Trial 44 pruned.
+Trial 45 failed:
+[I 2025-09-30 13:56:44,798] Trial 45 pruned.
+Trial 46 failed:
+[I 2025-09-30 13:57:20,578] Trial 46 pruned.
+Trial 47 failed:
+[I 2025-09-30 13:57:44,284] Trial 47 pruned.
+[I 2025-09-30 13:59:22,797] Trial 48 finished with value: 377.8 and parameters: {'num_layers': 4, 'hidden_size': 128, 'steps_per_batch': 8192, 'update_epochs': 10, 'num_minibatches': 64, 'learning_rate': 0.0008445468138475726, 'gamma': 0.9969062487057195, 'gae_lambda': 0.9261232780404346, 'epsilon': 0.24924050209676799, 'entropy_coeff': 0.001994533437133016, 'value_loss_coeff': 0.6721030981317273, 'max_grad_norm': 0.6762182797567089, 'normalize_advantages': False}. Best is trial 12 with value: 500.0.
+Trial 49 failed:
+[I 2025-09-30 13:59:35,515] Trial 49 pruned.
+
+Optimization completed!
+Best trial: 12
+Best value: 500.00
+Best parameters:
+  num_layers: 4
+  hidden_size: 128
+  steps_per_batch: 2048
+  update_epochs: 10
+  num_minibatches: 64
+  learning_rate: 0.0007282976901767067
+  gamma: 0.9919377900986864
+  gae_lambda: 0.9519200113582851
+  epsilon: 0.29947656712638776
+  entropy_coeff: 0.004378183225974978
+  value_loss_coeff: 0.5067698532530341
+  max_grad_norm: 1.6841379686217262
+  normalize_advantages: False
+
+Best hyperparameters saved to best_hyperparameters.json
+You can now use these hyperparameters for training with train.py
