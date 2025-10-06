@@ -1,0 +1,8 @@
+torch
+gymnasium
+numpy
+matplotlib
+seaborn
+optuna
+tqdm
+https://github.com/RedZapdos123/SPOinPyTorch.git
