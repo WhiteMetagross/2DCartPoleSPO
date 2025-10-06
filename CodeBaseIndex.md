@@ -1,4 +1,4 @@
-# CartPole-v1 SPO Project: Codebase Index
+# CartPole-v1 SPO Project: Codebase Index.
 
 ## Project Overview:
 This repository uses the SPOinPyTorch library's SPO (Simple Policy Optimizations) implementation for solving the Gymnasium CartPole-v1 environment (discrete control). The codebase includes:
